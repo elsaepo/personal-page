@@ -1,0 +1,155 @@
+body {
+  background-color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  margin: 0;
+  padding-top: 100px;
+  text-align: center;
+  position: relative;
+}
+
+.middle-container {
+margin: 100px auto;
+}
+
+.bottom-container {
+background-color: #66bfbf;
+padding: 50px 0 25px 0;
+}
+
+.profile {
+  width: 25%;
+  margin: 100px auto;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.profile-img {
+  width: 200px;
+}
+
+.skiing-img {
+width:25%;
+float: left;
+margin-right: 30px;
+}
+
+.plants-img {
+width:25%;
+float: right;
+margin-left: 30px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  font-family: Fredoka, sans-serif;
+  font-size: 5.5rem;
+  line-height: 2;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: Montserrat, sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: Fredoka, sans-serif;
+  font-size: 1.6rem;
+}
+
+p {
+  font-family: Merriweather, serif;
+  font-size: 1.2rem;
+  color: #40514E;
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: Fredoka, sans-serif;
+  font-size: 1.6rem;
+  color: #11999e;
+}
+
+.footer-link {
+  margin: 0 25px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-txt {
+  color: #eaf6f6;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.underline {
+  display: inline;
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  top: 300px;
+}
+
+hr {
+  border: none;
+  border-top: dotted;
+  border-width: 5px;
+  width: 50px;
+  color: #eaf6f6;
+}
+
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  background: #77a16f;
+  padding: 10px 20px 10px 20px;
+  border: solid #304d30 3px;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  display: inline-block;
+  margin-top: 25px;
+  }
+
+  .btn:hover {
+    background: #5f8060;
+    text-decoration: none;
+  }
